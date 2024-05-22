@@ -30,7 +30,7 @@ int main(){
 
     printf("  Copied Array : ");
     for (int i=0;i<arraySize;i++){
-        printf("%f, ",hostArray[i]);
+        printf("%f, ",resultArray[i]);
     }
 
     printf("\n");

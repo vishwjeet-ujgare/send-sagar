@@ -15,12 +15,12 @@ int main(){
     int host_b=7;
     int host_result=0;
 
-    //Device variables
-    int* device_a;
+    //Declare for Device variables
+    int *device_a;
     int *device_b;
     int *device_result;
 
-    //Allocate memory on the device
+    //Allocate memory on the device/host
     cudaMalloc((void**)&device_a,sizeof(int));
     cudaMalloc((void**)&device_b,sizeof(int));
     cudaMalloc((void**)&device_result,sizeof(int));
